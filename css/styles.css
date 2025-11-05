@@ -109,3 +109,27 @@ a{color:#0b4b6f}
   margin-bottom: 12px;
   color: #0a1b2a;
 }
+
+.site-footer {
+  background-color: #e0eafc;
+  color: #0a1b2a;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #1a1a8a;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3b49df;
+  text-decoration: underline;
+}
