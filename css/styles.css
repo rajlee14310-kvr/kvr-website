@@ -1,7 +1,7 @@
 /* styles.css - site styles matching screenshots */
 :root{
   --bg:#c7d6e4;        /* page background pale blue */
-  --panel:#3f06fb87;     /* purple card color (slightly desaturated) */
+  --panel:#06d6fb76;     /* purple card color (slightly desaturated) */
   --panel-contrast:#3e29ff;
   --accent:#0b6efd;
   --muted:#415063;
