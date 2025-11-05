@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KVR Services and Solutions — Home</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <meta name="description" content="KVR Services and Solutions — Web design, AI consultancy, automation & solutions." />
+  <link rel="canonical" href="https://www.kvrservicesandsolutions.com/">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="/assets/logo.png" alt="KVR logo" class="logo">
+        <span class="brand-text">KVR Services &amp; Solutions</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/" data-nav>Home</a>
+        <a href="/about/" data-nav>About</a>
+        <a href="/services/" data-nav>Services</a>
+        <a href="/contact/" data-nav>Contact</a>
+        <button id="chat-toggle" class="btn-outline" type="button">Chat</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="hero banner" style="background-image:url('/assets/hero.jpg')">
+        <div class="hero-overlay">
+          <div class="container hero-inner">
+            <h1>Web Design + AI Consulting for ambitious SMEs</h1>
+            <p class="lead">Design-forward websites, automation pipelines (n8n, Apify), and OpenAI-driven features to grow your business.</p>
+            <div class="cta-row">
+              <a class="btn-primary" href="/services/">Our Services</a>
+              <a class="btn-secondary" href="/about/">Meet the Team</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="features grid-3">
+        <article class="card purple">
+          <h3>AI Consulting</h3>
+          <p>We design and deploy production-ready AI workflows tailored to your business needs — combining the power of n8n, Apify, and OpenAI to automate repetitive tasks, extract valuable insights, and enhance decision-making. Our solutions go beyond prototypes — we build scalable, data-driven automation systems that integrate seamlessly with your existing tools, helping you save time, reduce costs, and unlock new levels of operational intelligence.</p>
+        </article>
+
+        <article class="card purple">
+          <h3>Website Design</h3>
+          <p>We create responsive, multi-page websites that combine stunning design with powerful functionality. Each site is optimized for all devices and built on a CMS-friendly architecture, making it easy for you to manage and update content effortlessly. From corporate websites to full-featured e-commerce platforms, our designs are crafted to deliver seamless user experiences, fast loading speeds, and strong conversion performance — helping your brand stand out and grow online.</p>
+        </article>
+
+        <article class="card purple">
+          <h3>Integration</h3>
+          <p>We seamlessly connect your website and applications to the tools that power your business — including CRMs, Google Sheets, payment gateways, APIs, and custom AI agent workflows. Our integrations ensure real-time data flow, automated processes and enhanced operational efficiency.</p>
+        </article>
+
+        <article class="card purple">
+          <h3>E-Commerce Solutions</h3>
+          <p>Powerful, scalable and visually captivating e-commerce stores built on Shopify, WooCommerce, or custom platforms. Secure payments, inventory management, and SEO-ready architecture to grow your online sales.</p>
+        </article>
+
+        <article class="card purple">
+          <h3>Digital Marketing</h3>
+          <p>SEO, Google Ads and social media strategies combined with creative brand building to drive measurable growth. We help craft visual identity and marketing campaigns that convert.</p>
+        </article>
+
+        <article class="card purple">
+          <h3>IT & Business consultancy</h3>
+          <p>Workflow automation, ERP/CRM integration and IT advisory for startups and SMEs. Practical, future-ready solutions to accelerate growth.</p>
+        </article>
+      </section>
+
+      <section class="ready-to-start">
+        <div class="cta-box">
+          <h2>Ready to start?</h2>
+          <p>Book a discovery call — or try our demo chatbot to ask about packages and timelines.</p>
+          <div class="cta-row">
+            <a class="btn-primary" href="/contact/">Contact Us</a>
+            <button class="btn-outline" id="open-chat">Open Chat Demo</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2019 KVR Services and Solutions. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Chat widget (basic demo) -->
+  <div id="chat-widget" class="chat-widget hidden" aria-hidden="true">
+    <div class="chat-header">
+      <strong>Site Assistant</strong>
+      <button id="chat-close" aria-label="Close chat">✕</button>
+    </div>
+    <div id="chat-body" class="chat-body"></div>
+    <form id="chat-form" class="chat-form">
+      <input id="chat-input" type="text" placeholder="Ask about packages, pricing or automation..." autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
